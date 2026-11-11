@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - LI Games</title>
+<meta name="description" content="How the LI Games app collects, uses, shares and deletes your data, including the Google account information used to sign in.">
+<meta name="theme-color" content="#0b0e1a">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://sarayyitzhak.github.io/li-games/privacy/">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="wrap">
+  <header class="site-header">
+    <a class="brand" href="../"><img src="../assets/logo.png" alt="" width="40" height="40"><span>LI Games</span></a>
+    <nav class="nav" aria-label="Main">
+      <a class="optional" href="../#how">How it works</a>
+      <a href="./" aria-current="page">Privacy</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="prose">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: <time datetime="2026-11-11">11 November 2026</time></p>
+
+    <p>LI Games is a small app for friends to compare results in daily puzzle games and keep weekly standings in private groups. It is operated by LI Games, Israel ("we"). You can reach us at <a href="mailto:sarayyitzhak8@gmail.com">sarayyitzhak8@gmail.com</a>.</p>
+    <p>This policy explains what the app collects, why, who sees it, how long we keep it, and how you can have it deleted.</p>
+
+    <nav class="toc" aria-label="Contents">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#collect">What we collect</a></li>
+        <li><a href="#google">Google account information</a></li>
+        <li><a href="#why">Why we use it</a></li>
+        <li><a href="#who">Who can see what</a></li>
+        <li><a href="#providers">Service providers</a></li>
+        <li><a href="#keep">How long we keep it</a></li>
+        <li><a href="#delete">Deleting your account</a></li>
+        <li><a href="#rights">Your choices and rights</a></li>
+        <li><a href="#website">This website</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#children">Age and children</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="collect">1. What we collect</h2>
+
+    <h3>Your account</h3>
+    <ul>
+      <li>Your <strong>e-mail address</strong> if you have an e-mail account with us, or the <strong>e-mail address, name and profile-photo link that Google gives us</strong> when you sign in with Google.</li>
+      <li>Your <strong>password</strong>, if you use one (people who sign in with Google have none). It is never stored in readable form: our authentication provider (Supabase Auth) keeps only a <strong>one-way, salted hash</strong> of it (currently bcrypt). Neither we nor the provider can read your password; the hash sits in the provider's database, which we can access.</li>
+      <li>Sign-in tokens, kept on your phone so that you stay signed in.</li>
+      <li><strong>Sign-in session records</strong> kept by our authentication provider: when each session started and was last used, and the <strong>IP address and device or app type</strong> of its latest activity. They keep your session working and help protect the service. A record is <strong>deleted when you sign out</strong> in the app (which ends all your sessions; signing out needs an internet connection) or when your account is deleted. An access token that is already on a phone may remain valid until it expires, but it cannot be renewed after you sign out or your account is deleted. We have <strong>not set an automatic expiry</strong>: if you stop using the app without signing out, the record of your last activity can remain until your account is deleted.</li>
+    </ul>
+
+    <h3>Your profile</h3>
+    <ul>
+      <li>A <strong>display name</strong> (it starts as the name from your sign-in and you can change it) and an <strong>avatar</strong> (one of the pictures in the app, or the photo link from Google). Other members of your groups see these.</li>
+    </ul>
+
+    <h3>Your game results</h3>
+    <ul>
+      <li>For each puzzle you record: the game, the puzzle (date and number), your <strong>completion time</strong>, any counted metrics (such as backtracks) and when you submitted it. You record results by sharing from the LinkedIn game to LI Games or by pasting the share text. The text is read <strong>on your phone</strong>; <strong>we do not store the shared text itself</strong>, only the time and metrics.</li>
+    </ul>
+
+    <h3>Groups</h3>
+    <ul>
+      <li>The groups you create or join: name, time zone, scoring rules, chosen games, your role, the dates you joined and left, and the daily and weekly standings and archives computed from members' results.</li>
+    </ul>
+
+    <h3>Notifications and settings</h3>
+    <ul>
+      <li>If you allow notifications: a <strong>push token</strong> for your phone and its platform (iOS or Android), your choices (daily results, reminders, weekly results), your reminder time and <strong>your phone's time zone</strong>.</li>
+      <li>Settings such as hidden games and the group shown on your home screen.</li>
+    </ul>
+
+    <h3>What we do not collect</h3>
+    <ul>
+      <li>No location, contacts, photos, camera or microphone data. No advertising identifiers. <strong>No analytics or advertising software is built into the app</strong>, and we do not track you across other apps or websites.</li>
+    </ul>
+
+    <h3>Technical data our providers see</h3>
+    <ul>
+      <li>Like any online service, the providers listed in <a href="#providers">section 5</a> receive the technical data needed to deliver their service (for example IP address, app version and the time of a request) and keep it in their own logs.</li>
+    </ul>
+
+    <h2 id="google">2. Google account information</h2>
+    <p>If you choose <strong>Sign in with Google</strong>, the app asks Google only for the basic sign-in information: your <strong>name, e-mail address and profile picture</strong> (the standard <code>openid</code>, <code>email</code> and <code>profile</code> permissions). It does <strong>not</strong> request access to your Gmail, contacts, calendar, Drive or any other Google data.</p>
+    <ul>
+      <li><strong>How we use it:</strong> to create your account and sign you in, to suggest your first display name, and - if you keep it - to show your Google profile picture as your avatar to the members of your groups.</li>
+      <li><strong>Where it is stored:</strong> in our database at Supabase (<a href="#providers">section 5</a>), together with the rest of your profile.</li>
+      <li><strong>Who it is shared with:</strong> your name and avatar are visible to members of the groups you join; your e-mail address is not shown to them. We do not sell this information, use it for advertising, or give it to anyone else except the service providers that run the app for us.</li>
+      <li><strong>Deleting it:</strong> see <a href="#delete">section 7</a>. You can also remove LI Games' access in your Google Account settings (Security, then "Your connections to third-party apps and services").</li>
+    </ul>
+    <p>LI Games' use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2 id="why">3. Why we use it</h2>
+    <ul>
+      <li>To run the app: sign you in, show your groups and standings, compute scores and archive each finished week.</li>
+      <li>To send the notifications you asked for.</li>
+      <li>To keep the service secure and to fix problems.</li>
+    </ul>
+    <p>We do not sell your data and we do not use it for advertising. The app does not send you e-mail in normal use. If a feature that e-mails you (such as a sign-in code) is turned on later, your address will be used only for that and this policy will be updated first.</p>
+
+    <h2 id="who">4. Who can see what</h2>
+    <ul>
+      <li><strong>Members of your groups</strong> see your display name, your avatar, your results for a puzzle once you have submitted your own result for that puzzle, and the standings and statistics built from results.</li>
+      <li><strong>Nobody else</strong> can read your results, groups or settings: database rules restrict each person to what they are allowed to see.</li>
+      <li><strong>We (the operator)</strong> can access the database to run and repair the service.</li>
+      <li>Notification text can mention other group members by their display name (for example "Dana overtook you"); that text is delivered to the other member's phone.</li>
+    </ul>
+
+    <h2 id="providers">5. Service providers who process data for us</h2>
+    <div class="table-scroll" role="region" aria-label="Service providers" tabindex="0">
+      <table>
+        <thead><tr><th scope="col">Provider</th><th scope="col">What for</th><th scope="col">What it receives</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://supabase.com/privacy">Supabase</a> (hosted in Seoul, South Korea)</td><td>Database, sign-in, backend functions</td><td>Everything described in section 1</td></tr>
+          <tr><td><a href="https://expo.dev/privacy">Expo</a></td><td>Delivering push notifications and app updates</td><td>Push tokens and notification text; technical request data for updates</td></tr>
+          <tr><td><a href="https://policies.google.com/privacy">Google</a> (sign-in; push service on Android) and <a href="https://www.apple.com/legal/privacy/">Apple</a> (push service on iOS)</td><td>The sign-in you choose; notification delivery</td><td>The data those services need for that purpose</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>LI Games is shared privately with invited friends and is not in any app store. If you are given a test version, a build service handles the installation under its own terms: on iPhone that is Apple's TestFlight (it handles your Apple ID; Apple may show us your e-mail address as a tester and any feedback you choose to send through it), and on Android it is a direct download from Expo's build service.</p>
+    <p>These providers may process data outside your country; their own terms and safeguards apply.</p>
+
+    <h2 id="keep">6. How long we keep it</h2>
+    <div class="table-scroll" role="region" aria-label="Retention" tabindex="0">
+      <table>
+        <thead><tr><th scope="col">Data</th><th scope="col">Kept</th></tr></thead>
+        <tbody>
+          <tr><td>Account, profile, settings, push tokens</td><td>Until your account is deleted (a push token the push service reports as invalid is disabled and no longer used, and a disabled token is removed after 30 days)</td></tr>
+          <tr><td>Your game results, closed-week archives and statistics</td><td>Kept after your account is deleted, in <strong>pseudonymised</strong> form: tied to an internal ID, not to your name, e-mail address or sign-in. Not fully anonymous (<a href="#delete">section 7</a>)</td></tr>
+          <tr><td>Sign-in session records (IP address, device or app type)</td><td>Deleted when you sign out in the app or your account is deleted; no automatic expiry, so an abandoned session can remain until the account is deleted</td></tr>
+          <tr><td>Notification log (internal, used to avoid sending a notification twice)</td><td>Automatically deleted after 21 days</td></tr>
+          <tr><td>Database backups</td><td>Our database provider makes no scheduled backups on our current plan. We sometimes make a manual copy of the database (for example before maintenance). Manual copies, and any working or test copy restored from one, are kept only on the operator's own computer. We review them every two weeks, keep a log of each review, and delete any copy older than 60 days.</td></tr>
+          <tr><td>Provider logs</td><td>According to each provider's own policy</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>A manual copy is a snapshot: if your account is deleted after a copy was made, your data stays in that copy until the copy is deleted.</p>
+
+    <h2 id="delete">7. Deleting your account</h2>
+
+    <p>You can delete your account yourself: <strong>Profile, then Delete account</strong>. Before you confirm, the app lists every group you are in and what will happen to it. To make sure it is you, you then type a confirmation word and sign in again (with Google or your password).</p>
+    <p>When you delete your account:</p>
+    <ul>
+      <li>your <strong>e-mail, sign-in, password, name, avatar, push tokens and notification settings are erased immediately</strong> and all your sessions are ended (an access token already on a phone may remain valid until it expires, but it cannot be renewed and your account data is already gone);</li>
+      <li>groups you <strong>own</strong> that have other members <strong>pass to the member who has been in the group longest</strong>; groups where you are the <strong>only</strong> member are <strong>deleted</strong>; in other groups you simply leave;</li>
+      <li>your <strong>past results stay in the groups' history and standings, shown as "Former player"</strong>, in <strong>pseudonymised</strong> form: tied to a random internal ID instead of your name, picture, e-mail address or sign-in. We keep them so that other members' scores, rankings and past weeks do not change. They are <strong>not fully anonymous</strong>: other members played with you and may still recognise you from how and when you played.</li>
+    </ul>
+    <p><strong>Not part of the immediate deletion.</strong> The following can remain for a limited time, and why:</p>
+    <ul>
+      <li><strong>Our notification log:</strong> a notification that mentions your name may remain for up to 21 days, then it is deleted automatically.</li>
+      <li><strong>Backups:</strong> a manual copy of the database made before you deleted your account keeps your data until that copy is deleted: once it is older than 60 days, at the latest at our next two-weekly review (<a href="#keep">section 6</a>).</li>
+      <li><strong>Other systems and people:</strong> messages already delivered to other people's phones stay on those phones; our providers keep technical logs under their own policies (<a href="#keep">section 6</a>); your Google account keeps listing LI Games as a connected app until you remove it in your Google Account settings (<a href="#google">section 2</a>); other members may remember who the player was; a group's <strong>name</strong> is whatever its members chose, so rename it first if it contains your name.</li>
+    </ul>
+    
+    <p>Deletion cannot be undone. If you cannot use the app, write to <a href="mailto:sarayyitzhak8@gmail.com">sarayyitzhak8@gmail.com</a> and we will delete the account for you after confirming that it is yours.</p>
+
+
+    <h2 id="rights">8. Your choices and rights</h2>
+    <p>You can change your display name and avatar in the app, turn notifications off in the app or in your phone's settings, and ask for your account to be deleted as described above. Depending on where you live you may also have the right to ask us for a copy of your data, to correct it, or to object to or restrict its use: write to <a href="mailto:sarayyitzhak8@gmail.com">sarayyitzhak8@gmail.com</a>.</p>
+
+    <h2 id="website">9. This website</h2>
+    <p>This website is a static page hosted on <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages</a>. We add no cookies, no analytics, no advertising and no third-party scripts or fonts to it, and it does not connect to the app's backend. GitHub, as the host, may process visitors' technical data (such as IP address) under its own privacy statement.</p>
+
+    <h2 id="security">10. Security</h2>
+    <p>Data is sent over encrypted connections and stored with access rules that limit each person to what they are allowed to see. No system is perfectly secure; if we learn of a breach that affects you, we will tell you as the law requires.</p>
+
+    <h2 id="children">11. Age and children</h2>
+    <p>LI Games is a private app for adults. You must be at least 18 years old to use it. We do not check or verify anyone's age, and we do not knowingly collect personal data from anyone younger.</p>
+
+    <p>If you believe someone under 18 has created an account, write to <a href="mailto:sarayyitzhak8@gmail.com">sarayyitzhak8@gmail.com</a> and we will close it as far as we can, as described in <a href="#delete">section 7</a>.</p>
+
+    <h2 id="changes">12. Changes</h2>
+    <p>If this policy changes, we will update this page and the date at the top. For a change that matters we will also tell the people who use LI Games before it takes effect (for example by a notification or a message). The latest version is always published at <a href="https://sarayyitzhak.github.io/li-games/privacy/">https://sarayyitzhak.github.io/li-games/privacy/</a>.</p>
+
+    <h2 id="contact">13. Contact</h2>
+    <p>LI Games, Israel - <a href="mailto:sarayyitzhak8@gmail.com">sarayyitzhak8@gmail.com</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="links"><a href="../">Home</a><a href="./">Privacy Policy</a><a href="#contact">Contact</a></div>
+    <p>&copy; 2026 LI Games. LI Games is an independent app. It is not affiliated with, endorsed by or sponsored by LinkedIn Corporation. LinkedIn is a trademark of LinkedIn Corporation.</p>
+  </footer>
+</div>
+</body>
+</html>

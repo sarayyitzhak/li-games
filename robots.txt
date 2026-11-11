@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sarayyitzhak.github.io/li-games/sitemap.xml
