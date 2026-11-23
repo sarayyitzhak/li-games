@@ -22,7 +22,10 @@
   root.className = (root.className ? root.className + ' ' : '') + (valid ? 'has-code' : 'no-code');
   if (!valid) return;
 
-  var link = 'ligames://join/' + code;
+  // the app's own scheme: the page says which (the development page uses ligamesdev); the only two schemes that exist are accepted, anything else is ligames
+  var scheme = root.getAttribute('data-app-scheme');
+  if (scheme !== 'ligamesdev') scheme = 'ligames';
+  var link = scheme + '://join/' + code;
   var targets = document.querySelectorAll('[data-open-app]');
   for (var i = 0; i < targets.length; i++) targets[i].setAttribute('href', link);
   var codes = document.querySelectorAll('[data-invite-code]');
