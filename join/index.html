@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join a group - LI Games</title>
+<meta name="description" content="You were invited to a group in LI Games. Open the app to join, or install it first.">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0b0e1a">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://sarayyitzhak.github.io/li-games/join/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LI Games">
+<meta property="og:title" content="You're invited to LI Games!">
+<meta property="og:description" content="Play daily games, challenge your friends and climb the leaderboard.">
+<meta property="og:url" content="https://sarayyitzhak.github.io/li-games/join/">
+<meta property="og:image" content="https://sarayyitzhak.github.io/li-games/assets/og-invite.jpg">
+<meta property="og:image:secure_url" content="https://sarayyitzhak.github.io/li-games/assets/og-invite.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LI Games trophy icon and the text: You're invited to LI Games!">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="You're invited to LI Games!">
+<meta name="twitter:description" content="Play daily games, challenge your friends and climb the leaderboard.">
+<meta name="twitter:image" content="https://sarayyitzhak.github.io/li-games/assets/og-invite.jpg">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+<script src="join.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="wrap">
+  <header class="site-header">
+    <a class="brand" href="../"><img src="../assets/logo.png" alt="" width="40" height="40"><span>LI Games</span></a>
+  </header>
+
+  <main id="main" class="invite">
+    <span class="chip">Private beta - invite only</span>
+    <h1>You're invited to a group</h1>
+
+    <section class="when-code" aria-labelledby="open-h">
+      <h2 id="open-h">Already have LI Games?</h2>
+      <p>Tap the button to open the app. It shows the group, and you choose whether to join.</p>
+      <p><a class="btn primary big" href="ligames://join" data-open-app>Open in LI Games</a></p>
+      <p class="code-line">Your invitation code: <code class="code" data-invite-code></code> <button class="btn small" type="button" data-copy-code data-done="Copied">Copy code</button></p>
+      <p class="fine">If nothing happens, the app is not installed yet (see below), or open LI Games, go to Groups, choose Join a group and enter the code.</p>
+    </section>
+
+    <section class="when-no-code" aria-labelledby="nocode-h">
+      <h2 id="nocode-h">This invitation link is incomplete</h2>
+      <p>The code is missing from the link. Ask the person who invited you to send it again, or open LI Games, go to Groups, choose Join a group and enter the code from their message.</p>
+    </section>
+
+    <noscript>
+      <section aria-labelledby="nojs-h">
+        <h2 id="nojs-h">JavaScript is needed to read your code</h2>
+        <p>This page reads the invitation code from the link in your browser. Without JavaScript, open LI Games, go to Groups, choose Join a group and enter the code from the message you received.</p>
+      </section>
+    </noscript>
+
+    <section aria-labelledby="install-h">
+      <h2 id="install-h">Don't have the app yet?</h2>
+      <p>LI Games is an invite-only beta. Install it once, then come back to this page and tap <strong>Open in LI Games</strong>.</p>
+      <div class="install">
+        <div class="install-card">
+          <h3>Android</h3>
+
+          <p><a class="btn" href="https://expo.dev/artifacts/eas/qDX4Tf8uF7teoa2MXFdmx1UcJb30rsgtFxRqgRByJ6s.apk" rel="noopener">Download the app (Build 6)</a></p>
+          <p class="fine">It downloads as an APK file. Open it, and if Android asks, allow installing from this browser.</p>
+
+        </div>
+        <div class="install-card">
+          <h3>iPhone</h3>
+
+          <p>Ask the person who invited you for a TestFlight invitation. TestFlight is Apple's free app for trying apps before release.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section lang="he" dir="rtl" aria-labelledby="he-h" class="he">
+      <h2 id="he-h">הוזמנתם להצטרף לקבוצה ב-LI Games</h2>
+      <p class="when-code">לחצו על הכפתור &quot;Open in LI Games&quot; למעלה כדי לפתוח את האפליקציה. היא מציגה את הקבוצה, ואתם מחליטים אם להצטרף. אם הקוד לא נפתח, פתחו את LI Games, היכנסו ל&quot;קבוצות&quot;, בחרו &quot;הצטרפות לקבוצה&quot; והזינו את הקוד: <code class="code" data-invite-code></code></p>
+      <p>אם האפליקציה עדיין לא מותקנת, התקינו אותה (אנדרואיד: קובץ APK; אייפון: TestFlight) וחזרו לדף הזה.</p>
+    </section>
+
+    <p class="fine">The invitation code is part of this page's address, so, like any web address, it reaches the server that hosts this page (GitHub Pages) when the page loads; nothing on this page stores it or sends it anywhere else. The group's name is not shown here; the app shows it after you open it. Read the <a href="../privacy/">Privacy Policy</a>.</p>
+  </main>
+</div>
+</body>
+</html>

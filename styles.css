@@ -138,3 +138,23 @@ mark.todo { background: #ff7a29; color: #0b0e1a; padding: 0 0.3em; border-radius
   .cards { grid-template-columns: repeat(2, 1fr); }
   .toc ol { columns: 2; }
 }
+
+/* invitation page (/join/): the code is read by join.js; these classes decide what shows (without JavaScript only the install help and the <noscript> note show) */
+.invite { max-width: 40rem; padding-bottom: 3rem; }
+.invite h1 { font-size: clamp(2rem, 7vw, 2.8rem); margin-top: 0.8rem; }
+.invite section { padding: 0.6rem 0 0.4rem; }
+.invite h2 { margin: 1.2rem 0 0.5rem; font-size: 1.35rem; }
+.invite h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+.invite p { color: #d3d9e6; }
+.when-code, .when-no-code { display: none; }
+.has-code .when-code { display: block; }
+.no-code .when-no-code { display: block; }
+.btn.big { padding: 1rem 1.6rem; font-size: 1.1rem; }
+.btn.small { padding: 0.35rem 0.8rem; font-size: 0.9rem; font-family: inherit; cursor: pointer; }
+.code { font: 700 1.05rem/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0.08em; background: var(--sunken); border: 1px solid var(--line); padding: 0.3rem 0.6rem; border-radius: 8px; direction: ltr; unicode-bidi: isolate; }
+.code-line { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; }
+.install { display: grid; gap: 1rem; margin-top: 1rem; }
+@media (min-width: 36rem) { .install { grid-template-columns: 1fr 1fr; } }
+.install-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 1rem 1.1rem; }
+.install-card p { margin: 0.4rem 0; }
+.invite .he { margin-top: 1.4rem; border-top: 1px solid var(--line); padding-top: 0.8rem; }
